@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>The Hello world Alert Message</title>
+   </head>
+
+   <body>
+      <script>
+            document.write("Hello World!!!");
+      </script>
+   </body>
+
+</html>

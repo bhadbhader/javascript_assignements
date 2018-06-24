@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>The Hello world Alert Message</title>
+   </head>
+
+   <body>
+      <script>
+         function foo(){
+            alert("Hello World!!!");
+         }
+      </script>
+   </body>
+
+</html>

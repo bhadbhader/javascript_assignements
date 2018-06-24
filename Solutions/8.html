@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Basic Rollover</title>
+      <script>
+         function MouseOver(MyImage) {
+        MyImage.src = "/home/rohit/javascript_assignements/Images/IMG-20150919-WA0010.jpg";
+       }
+        function MouseOut(MyImage) {
+        MyImage.src = "/home/rohit/javascript_assignements/Images/IMG-20150919-WA0016.jpg";
+       }
+      </script> 
+   </head>
+
+   <body>
+      <div>
+         <img src="/home/rohit/javascript_assignements/Images/IMG-20150919-WA0016.jpg" onMouseOver="MouseOver(this)" onMouseOut="MouseOut(this)">
+      </div> 
+   </body>
+
+</html>

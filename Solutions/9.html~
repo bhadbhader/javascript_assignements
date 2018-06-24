@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Multiple Rollover</title>
+      <script>
+         function clickOn1(MyImage) {
+        MyImage.src = "/home/rohit/javascript_assignements/Images/IMG-20150919-WA0010.jpg";
+       }
+        function clickOn2(MyImage) {
+        MyImage.src = "/home/rohit/javascript_assignements/Images/IMG-20150919-WA0016.jpg";
+       }
+        function clickOn3(MyImage) {
+        MyImage.src = "/home/rohit/javascript_assignements/Images/IMG-20150919-WA0011.jpg";
+       }
+        function MouseOut(MyImage) {
+        MyImage.src = "";
+       }
+      </script> 
+   </head>
+
+   <body>
+      <div>
+         <img src="/home/rohit/javascript_assignements/Images/IMG-20150919-WA0010.jpg" onMouseOver="clickOn1()" onMouseOut="MouseOut()">
+         <img src="/home/rohit/javascript_assignements/Images/IMG-20150919-WA0016.jpg" onMouseOver="clickOn2()" onMouseOut="MouseOut()">
+         <img src="/home/rohit/javascript_assignements/Images/IMG-20150919-WA0011.jpg" onMouseOver="clickOn3()" onMouseOut="MouseOut()">
+      </div> 
+   </body>
+
+</html>
